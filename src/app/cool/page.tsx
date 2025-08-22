@@ -7,7 +7,7 @@ export default function Kewl() {
       Feel free to put links, images, whatever! 
       Don't worry about styling- we aren't grading you on this- it's just to get to know you better! :) 
       */}
-      😎😎😎
+      Something unique about me is that I love travelling. I went to Europe this summer and went to 5 countries in less than 2 weeks. 
     </div>
   );
 }

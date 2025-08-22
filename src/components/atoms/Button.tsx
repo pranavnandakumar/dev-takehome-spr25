@@ -7,6 +7,8 @@ interface ButtonProps {
   type?: "button" | "submit" | "reset";
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   children: React.ReactNode;
+  disabled?: boolean;
+  className?: string;
 }
 
 export default function Button({
@@ -14,6 +16,8 @@ export default function Button({
   type = "button",
   onClick,
   children,
+  disabled = false,
+  className = "",
 }: ButtonProps) {
   const baseStyles = "py-2 px-4 rounded-md transition w-full ";
 
@@ -24,11 +28,14 @@ export default function Button({
       "bg-primary-fill text-primary border border-white hover:bg-primary hover:text-white",
   };
 
+  const disabledStyles = disabled ? "opacity-50 cursor-not-allowed" : "";
+
   return (
     <button
       type={type}
-      className={`${baseStyles} ${variantStyles[variant]}`}
+      className={`${baseStyles} ${variantStyles[variant]} ${disabledStyles} ${className}`}
       onClick={onClick}
+      disabled={disabled}
     >
       {children}
     </button>
