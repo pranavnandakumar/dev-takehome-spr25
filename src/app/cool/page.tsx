@@ -7,7 +7,7 @@ export default function Kewl() {
       Feel free to put links, images, whatever! 
       Don't worry about styling- we aren't grading you on this- it's just to get to know you better! :) 
       */}
-      Something unique about me is that I love travelling. I went to Europe this summer and went to 5 countries in less than 2 weeks. 
+      Something unique about me is that I’ve built close friendships with people from Nicaragua, Colombia, Uruguay, Panama, and Brazil. This past summer, my roommates were foreign exchange students from across Latin America, and living together turned into a crash course in culture, food, and late-night conversations about everything from politics to music. I came away not only with a deeper appreciation for different perspectives, but also with WhatsApp group chats that still light up daily across half a dozen countries. It’s one of the coolest reminders I’ve had that friendships can stretch far beyond where you happen to be.
     </div>
   );
 }

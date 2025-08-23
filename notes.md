@@ -3,7 +3,7 @@
 <!-- Make sure you fill out this checklist with what you've done before submitting! -->
 
 - [x] Read the README [please please please]
-- [ ] Something cool!
+- [x] Something cool!
 - [x] Back-end
   - [x] Minimum Requirements
     - [x] Setup MongoDB database
